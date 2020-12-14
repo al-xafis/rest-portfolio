@@ -41,3 +41,54 @@
 .post__button > :first-child {
   margin-right: 10px;
 }
+
+.signup {
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.signup__h1 {
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+
+.signup__input {
+  font-size: 18px;
+  width: 300px;
+  margin-bottom: 30px;
+  padding-bottom: 8px;
+  border: none;
+  border-bottom: 2px solid #aaa;
+  outline: none;
+  color: #111;
+}
+
+.login {
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.login__h1 {
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+
+.login__input {
+  font-size: 18px;
+  width: 300px;
+  margin-bottom: 30px;
+  padding-bottom: 8px;
+  border: none;
+  border-bottom: 2px solid #aaa;
+  outline: none;
+  color: #111;
+}
+
+
+

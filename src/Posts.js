@@ -1,4 +1,5 @@
 import React from 'react';
+import { Button } from '@material-ui/core';
 
 const Posts = () => {
   return (
@@ -9,7 +10,7 @@ const Posts = () => {
           <h1>I am a post</h1>
           <p>I am a long paragraph post</p>
           <div className="post__button">
-            <Button size="small" variant="contained" color="tertiary">edit</Button>
+            <Button size="small" variant="contained">edit</Button>
             <Button size="small" variant="contained" color="secondary">delete</Button>
           </div>
         </div>
