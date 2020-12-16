@@ -1,0 +1,20 @@
+.createpost {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.createpost__input:first-of-type {
+  margin-right: 25px;
+}
+
+.createpost__input {
+  padding: 2px 8px;
+}
+
+label {
+  padding-right: 10px;
+}
+
+.createpost__input:last-of-type {
+  margin-right: 40px;
+}

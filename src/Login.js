@@ -7,8 +7,8 @@ const Login = () => {
 
   const history = useHistory();
 
-  const [mail, setMail] = useState(null);
-  const [password, setPassword] = useState(null);
+  const [mail, setMail] = useState('');
+  const [password, setPassword] = useState('');
 
   const login = (mail, password) => {
     auth.signInWithEmailAndPassword(mail, password)

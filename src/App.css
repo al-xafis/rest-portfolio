@@ -34,6 +34,23 @@
   margin-top: 2rem;
 }
 
+.post {
+  margin-bottom: 20px;
+}
+
+.post__username {
+  font-size: 14px;
+  margin-bottom: -3px;
+}
+
+.post__header {
+  margin-bottom: 3px;
+}
+
+.post__paragraph {
+  font-size: 20px;
+}
+
 .post__button {
   margin-left: 70%;
 }
