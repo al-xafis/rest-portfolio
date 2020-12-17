@@ -10,6 +10,7 @@ import Login from './Login';
 import { auth } from './firebase';
 import { login, logout } from './features/users/usersSlice';
 import CreatePost from './features/posts/CreatePost';
+import Edit from './Edit';
 
 function App() {
 
@@ -46,6 +47,7 @@ function App() {
         <Route exact path="/login">
           <Login />
         </Route>
+        <Route exact path="/:id" component={Edit} />
       </Switch>
       </div>
     </Router>

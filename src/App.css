@@ -107,5 +107,19 @@
   color: #111;
 }
 
+.edit {
+  margin-top: 10vh;
+  text-align: center;
+}
+
+.edit__paragraph {
+  font-size: 20px;
+}
+
+.edit__post {
+  text-align: center;
+  margin-top: 10vh;
+}
+
 
 
