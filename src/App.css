@@ -16,8 +16,9 @@
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
-  justify-content: flex-end;
-  margin-top: .5rem;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
@@ -35,7 +36,7 @@
 }
 
 .post {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .post__username {
@@ -52,7 +53,7 @@
 }
 
 .post__button {
-  margin-left: 70%;
+  margin-left: 80%;
 }
 
 .post__button > :first-child {
@@ -60,7 +61,7 @@
 }
 
 .signup {
-  margin-top: 150px;
+  margin-top: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -84,7 +85,7 @@
 }
 
 .login {
-  margin-top: 150px;
+  margin-top: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -118,7 +119,18 @@
 
 .edit__post {
   text-align: center;
-  margin-top: 10vh;
+  margin-top: 3vh;
+}
+
+.to-right {
+  margin-left: auto;
+}
+
+.rest {
+  text-decoration: none;
+  font-size: 28px;
+  font-weight: 500;
+  color: black;
 }
 
 

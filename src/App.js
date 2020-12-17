@@ -35,9 +35,10 @@ function App() {
   return (
     <Router>
       <div className="app">
+      <Navbar />
       <Switch>
         <Route exact path="/">
-            <Navbar />
+            
             {user ? <CreatePost /> : null}
             <Posts />
         </Route>

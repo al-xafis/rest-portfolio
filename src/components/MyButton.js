@@ -4,7 +4,7 @@ import React from 'react';
 
 const Button = (props) => {
   return (
-    <button className="button">
+    <button onClick={props.onClick} className="button">
       {props.children}
     </button>
   )
